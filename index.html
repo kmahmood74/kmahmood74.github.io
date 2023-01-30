@@ -13,7 +13,6 @@
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
   var uri = getParameterByName('uri');
-  if ( uri ) uri = decodeURIComponent(uri);
   alert(uri);
   
   function handleMessage(id,msg) {
